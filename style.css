@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+	--ltbrown: rgb(250, 243, 224);
+	--mdbrown: rgb(234, 191, 159);
+	--dkbrown: rgb(182, 137, 115);
+	--offblack: rgb(30, 33, 45);
+
+	--ltpeach: rgb(253, 239, 239);
+	--mdpeach: rgb(244, 223, 208);
+	--ltolive: rgb(218, 208, 194);
+	--dkolive: rgb(205, 187, 167);
+}
+
+body {
+	background-color: var(--ltpeach);
+	font-family: "Cormorant Garamond", serif;
+	color: var(--offblack);
+}
+
+.txt-lt-wt {
+	font-weight: 300;
+}
+.txt-hvy-wt {
+	font-weight: 700;
+}
+.text-md-wt {
+	font-weight: 500;
+}
+.title-text {
+	font-size: 5em;
+}
+.title-subtext {
+	font-size: 2.25em;
+}
+.basic-img {
+	max-height: 55vh;
+}
+
+.navbar-light {
+	background-color: var(--mdpeach) !important;
+}
+
+#view-selection-button {
+	width: 14vw;
+	height: 7vh;
+	background-color: var(--ltpeach);
+	border: 2px var(--dkbrown) solid;
+	font-size: 1.5em;
+}
+
+.gallery-img {
+	width: 15vw;
+	border: solid thick var(--dkolive);
+}
+
+.vert-break {
+	border-left: 3px solid var(--dkolive);
+	height: 60vh;
+}
+
+.form-label {
+	font-size: 1.25em;
+}
+.form-control,
+.form-select {
+	border: solid var(--offblack) thin;
+}
