@@ -40,23 +40,28 @@
 							<a
 								class="nav-link active mx-3"
 								aria-current="page"
-								href="./index.html"
+								href="/index.html"
 								>Home</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link mx-3" href="./about.html"
+							<a class="nav-link mx-3" href="/about.html"
 								>About the Chef</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link mx-3" href="./gallery.html"
+							<a class="nav-link mx-3" href="/gallery.html"
 								>Gallery</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link mx-3" href="./contact.html"
+							<a class="nav-link mx-3" href="/contact.html"
 								>Contact</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link mx-3" href="/order.html"
+								>Order</a
 							>
 						</li>
 					</ul>
@@ -64,38 +69,42 @@
 			</div>
 		</nav>
 
-		<section id="landing-page">
-			<div class="container p-5">
-				<div class="row align-items-center p-5">
-					<div class="col-6 px-5">
-						<h1 class="title-text px-5">Chefcants</h1>
-						<h1 class="title-text px-5">Perfumes</h1>
-						<h2 class="py-1 px-5 title-subtext">
-							Fragrances for all budgets
-						</h2>
-						<a href="https://google.com"
-							><input
-								type="button"
-								id="view-selection-button"
-								class="mx-5 my-3"
-								value="View Selection"
-						/></a>
-					</div>
-					<div class="col-6">
-						<img
-							src="Images/image_50450945.JPG"
-							alt=""
-							class="basic-img"
-						/>
+		<main id="swup" class="transition-fade">
+			<section id="landing-page">
+				<div class="container p-5">
+					<div class="row align-items-center p-5">
+						<div class="col-6 px-5">
+							<h1 class="title-text px-5">Chefcants</h1>
+							<h1 class="title-text px-5">Perfumes</h1>
+							<h2 class="py-1 px-5 title-subtext">
+								Fragrances for all budgets
+							</h2>
+							<a href="https://google.com"
+								><input
+									type="button"
+									id="view-selection-button"
+									class="mx-5 my-3"
+									value="View Selection"
+							/></a>
+						</div>
+						<div class="col-6">
+							<img
+								src="Images/image_50450945.JPG"
+								alt=""
+								class="basic-img"
+							/>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		</main>
 		<!-- Option 1: Bootstrap Bundle with Popper -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>

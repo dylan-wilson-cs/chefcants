@@ -47,6 +47,19 @@ body {
 	background-color: var(--ltpeach);
 	border: 2px var(--dkbrown) solid;
 	font-size: 1.5em;
+	background: linear-gradient(
+		to right,
+		var(--ltolive) 0%,
+		var(--ltolive) 50%,
+		var(--ltpeach) 50%,
+		var(--ltpeach) 100%
+	);
+	background-size: 200% 100%;
+	background-position: 100% 0;
+	transition: background-position 0.3s;
+}
+#view-selection-button:hover {
+	background-position: 0 0;
 }
 
 .gallery-img {
@@ -65,4 +78,13 @@ body {
 .form-control,
 .form-select {
 	border: solid var(--offblack) thin;
+}
+
+.transition-fade {
+	transition: 0.4s;
+	opacity: 1;
+}
+
+html.is-animating .transition-fade {
+	opacity: 0;
 }
