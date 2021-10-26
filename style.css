@@ -1,5 +1,7 @@
+/* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
+/* Root */
 :root {
 	--ltbrown: rgb(250, 243, 224);
 	--mdbrown: rgb(234, 191, 159);
@@ -12,12 +14,20 @@
 	--dkolive: rgb(205, 187, 167);
 }
 
+/* Elements */
 body {
 	background-color: var(--ltpeach);
 	font-family: "Cormorant Garamond", serif;
+}
+a {
+	text-decoration: none;
+	color: #885a89;
+}
+a:hover {
 	color: var(--offblack);
 }
 
+/* General Use CSS */
 .txt-lt-wt {
 	font-weight: 300;
 }
@@ -33,16 +43,16 @@ body {
 .title-subtext {
 	font-size: 2.25em;
 }
+@media only screen and (max-width: 600px) {
+	.title-text {
+		font-size: 4em;
+	}
+}
 .basic-img {
 	max-height: 55vh;
 }
-
-.navbar-light {
-	background-color: var(--mdpeach) !important;
-}
-
 #view-selection-button {
-	width: 14vw;
+	width: 250px;
 	height: 7vh;
 	background-color: var(--ltpeach);
 	border: 2px var(--dkbrown) solid;
@@ -62,22 +72,58 @@ body {
 	background-position: 0 0;
 }
 
+/* Navbar */
+.navbar-light {
+	background-color: var(--mdpeach) !important;
+}
+
+/* Landing Page */
+@media only screen and (max-width: 992px) {
+	#landing-page-text {
+		margin-left: -150px;
+		margin-right: 150px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	#landing-page-text {
+		margin-left: -150px;
+		margin-right: 150px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#landing-page-text {
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
+}
+
+/* Gallery */
 .gallery-img {
 	width: 15vw;
 	border: solid thick var(--dkolive);
 }
 
+/* Contact */
 .vert-break {
 	border-left: 3px solid var(--dkolive);
 	height: 60vh;
 }
 
+/* Bootstrap Changes */
 .form-label {
 	font-size: 1.25em;
 }
 .form-control,
 .form-select {
 	border: solid var(--offblack) thin;
+}
+
+/* Media Query Template */
+@media only screen and (max-width: 600px) {
+	X {
+		background-color: lightblue;
+	}
 }
 
 .transition-fade {
