@@ -1,0 +1,22 @@
+Index: 
+    Change pictures TALK TO CLIENT! 
+
+About: 
+    Get about text.
+    Change pictures TALK TO CLIENT! 
+
+Gallery:
+    Add on click modal to pictures
+    Change cols / rows to col on smaller sizes
+
+Contact:
+    Change social medias to column on smaller sizes
+        Maybe icons on smaller size?
+    Connect contact form to email receiver.
+    Connect social media links
+
+Order:
+    Change rows to col on smaller sizes
+    Connect Order form to email receiver.
+    Finalize a basic excel spreadsheet and connect link.
+

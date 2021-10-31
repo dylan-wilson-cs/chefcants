@@ -19,12 +19,16 @@ body {
 	background-color: var(--ltpeach);
 	font-family: "Cormorant Garamond", serif;
 }
-a {
+#social-media a {
 	text-decoration: none;
-	color: #885a89;
-}
-a:hover {
 	color: var(--offblack);
+	display: inline-block;
+}
+#social-media a:hover {
+	color: var(--dkolive);
+	content: "hello";
+	transform: translate(15px, -0);
+	opacity: 85%;
 }
 
 /* General Use CSS */
@@ -100,8 +104,23 @@ a:hover {
 
 /* Gallery */
 .gallery-img {
-	width: 15vw;
+	width: 225px;
+	height: 225px;
 	border: solid thick var(--dkolive);
+}
+@media only screen and (max-width: 993px) {
+	.gallery-img {
+		width: 400px;
+		height: 400px;
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.gallery-img {
+		width: 250px;
+		height: 250px;
+		margin-bottom: 50px;
+	}
 }
 
 /* Contact */
@@ -133,4 +152,22 @@ a:hover {
 
 html.is-animating .transition-fade {
 	opacity: 0;
+}
+
+.modal-button,
+.modal-content {
+	background-color: var(--dkolive);
+}
+
+.modal img {
+	max-height: 65vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gallery button {
+	outline: none;
+	border: none;
+	background: none;
 }
