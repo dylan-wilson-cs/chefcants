@@ -211,3 +211,8 @@ html.is-animating .transition-fade {
 	background-position: 0 0;
 	color: white;
 }
+@media only screen and (max-width: 600px) {
+	.remove-button {
+		pointer-events: none;
+	}
+}
