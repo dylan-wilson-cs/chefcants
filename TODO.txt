@@ -3,7 +3,7 @@ Index:
 
 About: 
     Get about text.
-    Change pictures TALK TO CLIENT! 
+    Change pictures with pictures provided
 
 Gallery:
     Add on click modal to pictures
@@ -19,4 +19,5 @@ Order:
     Change rows to col on smaller sizes
     Connect Order form to email receiver.
     Finalize a basic excel spreadsheet and connect link.
+    Add payment methods options: CashApp, Venmo, PayPal (either), ApplePay. iuogut87y
 
