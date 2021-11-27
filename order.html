@@ -81,14 +81,6 @@
 									<a
 										class="dropdown-item"
 										target="_blank"
-										href="./contact.html"
-										>Contact Form</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										target="_blank"
 										href="https://www.facebook.com/chefcants/"
 										>Facebook</a
 									>
@@ -105,7 +97,7 @@
 									<a
 										class="dropdown-item"
 										target="_blank"
-										href="https://www.instagram.com/"
+										href="https://www.instagram.com/chefcantschefmoe/"
 										>Instagram</a
 									>
 								</li>
@@ -113,7 +105,7 @@
 									<a
 										class="dropdown-item"
 										target="_blank"
-										href="https://www.tiktok.com/"
+										href="https://www.tiktok.com/@chefcantschannel?"
 										>TikTok</a
 									>
 								</li>
@@ -176,46 +168,59 @@
 						</div>
 						<div class="col-lg-6 align-items-center d-flex">
 							<div class="container px-lg-5">
-								<div class="mb-3">
-									<label for="name" class="form-label"
-										>Name</label
-									>
-									<input
-										type="text"
-										id="email"
-										class="form-control mb-3"
-										placeholder="Chef Cants"
-									/>
-									<label for="email" class="form-label"
-										>Email address</label
-									>
-									<input
-										type="email"
-										class="form-control mb-3"
-										id="email"
-										placeholder="name@example.com"
-									/>
-									<label for="address" class="form-label"
-										>Address</label
-									>
-									<input
-										type="address"
-										class="form-control mb-3"
-										id="address"
-										placeholder="1234 Perfume Ln, Chicago, IL, 60007"
-									/>
-								</div>
-								<div class="mb-3">
-									<label for="description" class="form-label"
-										>Description</label
-									>
-									<textarea
-										class="form-control"
-										id="description"
-										rows="6"
-										placeholder="Example: 10ml Nishane Hacivat, 10ml Creed Viking Cologne, 5ml Yves Saint Laurent Y Le Parfum"
-									></textarea>
-								</div>
+								<form
+									action="https://formspree.io/f/xbjwroyv"
+									method="POST"
+								>
+									<div class="mb-3">
+										<label for="name" class="form-label"
+											>Name</label
+										>
+										<input
+											type="text"
+											name="name"
+											class="form-control mb-3"
+											placeholder="Chef Cants"
+										/>
+										<label for="email" class="form-label"
+											>Email address</label
+										>
+										<input
+											type="email"
+											class="form-control mb-3"
+											name="email"
+											placeholder="name@example.com"
+										/>
+										<label for="address" class="form-label"
+											>Address</label
+										>
+										<input
+											type="address"
+											class="form-control mb-3"
+											name="address"
+											placeholder="1234 Perfume Ln, Chicago, IL, 60007"
+										/>
+									</div>
+									<div class="mb-3">
+										<label
+											for="description"
+											class="form-label"
+											>Description</label
+										>
+										<textarea
+											class="form-control"
+											name="description"
+											rows="6"
+											placeholder="Example: 10ml Nishane Hacivat, 10ml Creed Viking Cologne, 5ml Yves Saint Laurent Y Le Parfum"
+										></textarea>
+										<br />
+										<input
+											type="submit"
+											class="btn btn-secondary"
+											value="Submit"
+										/>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
