@@ -3,217 +3,217 @@
 
 /* Root */
 :root {
-	--ltbrown: rgb(250, 243, 224);
-	--mdbrown: rgb(234, 191, 159);
-	--dkbrown: rgb(182, 137, 115);
-	--offblack: rgb(30, 33, 45);
+    --ltbrown: rgb(250, 243, 224);
+    --mdbrown: rgb(234, 191, 159);
+    --dkbrown: rgb(182, 137, 115);
+    --offblack: rgb(30, 33, 45);
 
-	--ltpeach: rgb(253, 239, 239);
-	--mdpeach: rgb(244, 223, 208);
-	--ltolive: rgb(218, 208, 194);
-	--dkolive: rgb(205, 187, 167);
+    --ltpeach: rgb(253, 239, 239);
+    --mdpeach: rgb(244, 223, 208);
+    --ltolive: rgb(218, 208, 194);
+    --dkolive: rgb(205, 187, 167);
 }
 
 /* Elements */
 body {
-	background-color: var(--ltpeach);
-	font-family: "Cormorant Garamond", serif;
+    background-color: var(--ltpeach);
+    font-family: "Cormorant Garamond", serif;
 }
 input,
 textarea {
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 #social-media a {
-	text-decoration: none;
-	display: inline-block;
-	opacity: 85%;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 85%;
 }
 .social-icon {
-	width: 5vw;
-	opacity: 90%;
+    width: 5vw;
+    opacity: 90%;
 }
 .right:hover {
-	color: var(--dkolive);
-	content: "hello";
-	transform: translate(15px, -0);
-	opacity: 50%;
+    color: var(--dkolive);
+    content: "hello";
+    transform: translate(15px, -0);
+    opacity: 50%;
 }
 .left:hover {
-	color: var(--dkolive);
-	content: "hello";
-	transform: translate(-15px, -0);
-	opacity: 50%;
+    color: var(--dkolive);
+    content: "hello";
+    transform: translate(-15px, -0);
+    opacity: 50%;
 }
 
 /* General Use CSS */
 .txt-lt-wt {
-	font-weight: 300;
+    font-weight: 300;
 }
 .txt-hvy-wt {
-	font-weight: 700;
+    font-weight: 700;
 }
 .text-md-wt {
-	font-weight: 500;
+    font-weight: 500;
 }
 .title-text {
-	font-size: 3em;
-	font-weight: bold;
+    font-size: 3em;
+    font-weight: bold;
 }
 .title-subtext {
-	font-size: 2.25em;
+    font-size: 2.25em;
 }
 @media only screen and (max-width: 600px) {
-	.title-text {
-		font-size: 4em;
-	}
+    .title-text {
+        font-size: 4em;
+    }
 }
 .basic-img {
-	max-height: 55vh;
-	border-radius: 10px;
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+    max-height: 55vh;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
 }
 #view-selection-button {
-	width: 250px;
-	height: 7vh;
-	border-radius: 10px;
-	background-color: var(--ltpeach);
-	border: 2px var(--dkbrown) solid;
-	font-size: 1.5em;
-	background: linear-gradient(
-		to right,
-		var(--ltolive) 0%,
-		var(--ltolive) 50%,
-		var(--ltpeach) 50%,
-		var(--ltpeach) 100%
-	);
-	background-size: 200% 100%;
-	background-position: 100% 0;
-	transition: background-position 0.3s;
+    width: 250px;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: var(--ltpeach);
+    border: 2px var(--dkbrown) solid;
+    font-size: 1.5em;
+    background: linear-gradient(
+        to right,
+        var(--ltolive) 0%,
+        var(--ltolive) 50%,
+        var(--ltpeach) 50%,
+        var(--ltpeach) 100%
+    );
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.3s;
 }
 #view-selection-button:hover {
-	background-position: 0 0;
+    background-position: 0 0;
 }
 
 /* Navbar */
 .navbar-light {
-	background-color: var(--mdpeach) !important;
+    background-color: var(--mdpeach) !important;
 }
 
 /* Landing Page */
 @media only screen and (max-width: 992px) {
-	#landing-page-text {
-		margin-left: -150px;
-		margin-right: 150px;
-	}
+    #landing-page-text {
+        margin-left: -150px;
+        margin-right: 150px;
+    }
 }
 @media only screen and (max-width: 992px) {
-	#landing-page-text {
-		margin-left: -150px;
-		margin-right: 150px;
-	}
+    #landing-page-text {
+        margin-left: -150px;
+        margin-right: 150px;
+    }
 }
 @media only screen and (max-width: 768px) {
-	#landing-page-text {
-		margin-left: 0px;
-		margin-right: 0px;
-		text-align: center;
-	}
+    #landing-page-text {
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
 }
 
 /* Gallery */
 .gallery-img {
-	width: 225px;
-	height: 225px;
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
-	border-radius: 10px;
+    width: 275px;
+    height: 275px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
 }
 @media only screen and (max-width: 993px) {
-	.gallery-img {
-		width: 400px;
-		height: 400px;
-		margin-bottom: 50px;
-	}
+    .gallery-img {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 50px;
+    }
 }
 @media only screen and (max-width: 600px) {
-	.gallery-img {
-		width: 250px;
-		height: 250px;
-		margin-bottom: 50px;
-	}
+    .gallery-img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
 }
 
 /* Contact */
 .vert-break {
-	border-left: 3px solid var(--dkolive);
-	height: 60vh;
+    border-left: 3px solid var(--dkolive);
+    height: 60vh;
 }
 
 /* Bootstrap Changes */
 .form-label {
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
 .form-control,
 .form-select {
-	border: solid var(--offblack) thin;
+    border: solid var(--offblack) thin;
 }
 
 /* Media Query Template */
 @media only screen and (max-width: 600px) {
-	X {
-		background-color: lightblue;
-	}
+    X {
+        background-color: lightblue;
+    }
 }
 
 .transition-fade {
-	transition: 0.4s;
-	opacity: 1;
+    transition: 0.4s;
+    opacity: 1;
 }
 
 html.is-animating .transition-fade {
-	opacity: 0;
+    opacity: 0;
 }
 
 .modal-button,
 .modal-content {
-	background-color: var(--dkolive);
+    background-color: var(--dkolive);
 }
 
 .modal img {
-	max-height: 65vh;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    max-height: 65vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #gallery button {
-	outline: none;
-	border: none;
-	background: none;
+    outline: none;
+    border: none;
+    background: none;
 }
 
 .card-group {
-	min-height: 75vh;
+    min-height: 75vh;
 }
 
 #review-button {
-	border: solid var(--offblack) thin;
-	background: linear-gradient(
-		to right,
-		#c4302b 0%,
-		#c4302b 50%,
-		white 50%,
-		white 100%
-	);
-	background-size: 200% 100%;
-	background-position: 100% 0;
-	transition: background-position 0.3s;
+    border: solid var(--offblack) thin;
+    background: linear-gradient(
+        to right,
+        #c4302b 0%,
+        #c4302b 50%,
+        white 50%,
+        white 100%
+    );
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.3s;
 }
 #review-button:hover {
-	background-position: 0 0;
-	color: white;
+    background-position: 0 0;
+    color: white;
 }
 @media only screen and (max-width: 600px) {
-	.remove-button {
-		pointer-events: none;
-	}
+    .remove-button {
+        pointer-events: none;
+    }
 }
